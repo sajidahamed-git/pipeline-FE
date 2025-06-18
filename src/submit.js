@@ -13,7 +13,8 @@ export const SubmitButton = () => {
 
     const handleClick = async () => {
         try {
-            const response = await fetch('http://127.0.0.1:8000/pipelines/parse', {
+            const response = await fetch('http://ksosoog08g0wk8sccww4skso.167.235.255.190.sslip.io/pipelines/parse', 
+                {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
