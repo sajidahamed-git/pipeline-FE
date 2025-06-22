@@ -3,7 +3,8 @@
   max-width: 300px;
   min-height: 80px;
   border: none;
-  background: #430A89;
+  /*properties for when placed in the flow zone*/
+  background: #430A89; 
   border-radius: 12px;
   padding: 12px;
   color: white;

@@ -5,7 +5,7 @@
   display: flex;
   align-items: center;
   border-radius: 8px;
-  background-color: #430A89;
+  background-color: white;
   justify-content: center;
   flex-direction: column;
   padding: 8px;
@@ -27,7 +27,7 @@
 }
 
 .label {
-  color: #fff;
+  color: rgb(0, 0, 0);
   font-weight: 500;
   font-size: 0.9rem;
 }
