@@ -4,10 +4,10 @@
   min-height: 80px;
   border: none;
   /*properties for when placed in the flow zone*/
-  background: #430A89; 
+  background: white; 
   border-radius: 12px;
   padding: 12px;
-  color: white;
+  color: black;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 
@@ -15,7 +15,7 @@
   font-weight: 600;
   font-size: 16px;
   margin-bottom: 12px;
-  color: white;
+  color:black;
   padding: 4px 0;
 }
 

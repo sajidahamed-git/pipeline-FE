@@ -23,7 +23,7 @@ export const NotificationsNode = ({ id, data }) => {
   return (
     <BaseNode id={id} title="Notifications" handles={handles}>
       <div className="flex flex-col gap-2">
-        <label className="flex items-center gap-2 text-white">
+        <label className="flex items-center gap-2 text-black">
           <input
             type="radio"
             name={`notification-${id}`}
@@ -34,7 +34,7 @@ export const NotificationsNode = ({ id, data }) => {
           />
           SMS
         </label>
-        <label className="flex items-center gap-2 text-white">
+        <label className="flex items-center gap-2 text-base">
           <input
             type="radio"
             name={`notification-${id}`}
