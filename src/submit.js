@@ -16,7 +16,7 @@ export const SubmitButton = () => {
   const handleClick = async () => {
     try {
       const response = await fetch(
-        process.env.REACT_APP_PIPELINE_API,
+        `${process.env.REACT_APP_PIPELINE_API}/pipelines/parse`,
         {
           method: "POST",
           headers: {
