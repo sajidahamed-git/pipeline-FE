@@ -10,6 +10,8 @@ const selector = (state) => ({
 
 export const SubmitButton = () => {
   const { nodes, edges } = useStore(selector, shallow);
+  console.log(process.env.REACT_APP_PIPELINE_API);
+  
 
   const handleClick = async () => {
     try {
