@@ -120,7 +120,7 @@ export const PipelineUI = () => {
           snapGrid={[gridSize, gridSize]}
           connectionLineType="smoothstep"
         >
-          <Background color="#aaa" gap={gridSize} />
+          <Background  color="#aaa" gap={gridSize} />
           <Controls />
           <MiniMap 
           className="rounded-lg overflow-hidden"

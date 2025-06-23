@@ -21,6 +21,8 @@ export const BaseNode = ({
             width: 10, // Increased size of handles
             height: 10, // Increased size of handles
             borderRadius: '50%', // Make handles circular
+            background:'#9333ea',
+            border:"0"
           }}
         />
       ))}
